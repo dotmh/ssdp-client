@@ -1,0 +1,23 @@
+{
+  "name": "sspd-client",
+  "version": "0.1.0",
+  "description": "A test ssdp client",
+  "main": "client.js",
+  "scripts": {
+    "test": "node ./client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dotmh/ssdp-client.git"
+  },
+  "author": "Martin Haynes <oss@dotmh.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotmh/ssdp-client/issues"
+  },
+  "homepage": "https://github.com/dotmh/ssdp-client#readme",
+  "dependencies": {
+    "node-ssdp": "^3.3.0",
+    "sleep": "^5.1.1"
+  }
+}
